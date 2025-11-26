@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour
     [Header("Mensajes de Recolección")]
     public GameObject collectionMessagePanel;
     public TextMeshProUGUI collectionText;
-    public float messageDisplayTime = 12f;
+    public float messageDisplayTime = 10f;
 
     [Header("Panel de Inventario")]
     public GameObject inventoryPanel;

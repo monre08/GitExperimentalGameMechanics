@@ -39,7 +39,7 @@ public class EmotionalStateManager : MonoBehaviour
     {
         Debug.Log($"Escena cargada: {scene.name}");
        
-        if (scene.buildIndex == 0 && ShouldReset()) // Escena principal
+        if (scene.buildIndex == 1 && ShouldReset()) // Escena principal
         {
             ResetToDepressed();
         }

@@ -127,7 +127,7 @@ public class SlidingPuzzleManager : MonoBehaviour
     IEnumerator LoadGameOverAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1); // GameOverScene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2); // GameOverScene
     }
     
     void PositionPiecesManually()

@@ -41,6 +41,6 @@ public class ExitDetector : MonoBehaviour
     IEnumerator LoadWinSceneAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(2); // WinScene (índice 2)
+        SceneManager.LoadScene(3); // WinScene (índice 3)
     }
 }

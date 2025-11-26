@@ -931,7 +931,6 @@ MonoBehaviour:
   isTimerRunning: 0
   timerText: {fileID: 1087203736}
   timerPanel: {fileID: 36979522}
-  gameOverSceneIndex: 1
 --- !u!4 &282598925
 Transform:
   m_ObjectHideFlags: 0
@@ -12961,7 +12960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
   collectionMessagePanel: {fileID: 1251963124}
   collectionText: {fileID: 1971972608}
-  messageDisplayTime: 2
+  messageDisplayTime: 5
   inventoryPanel: {fileID: 1885583620}
   heartsText: {fileID: 452061212}
   orbsText: {fileID: 553043772}

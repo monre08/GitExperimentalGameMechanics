@@ -1,22 +1,22 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class WinManager : MonoBehaviour
+public class MainMenuManager : MonoBehaviour
 {
-    public void PlayAgain()
+    // Llamado por el botón Play
+    public void PlayGame()
     {
-        Debug.Log("Cargando juego de nuevo...");
-        SceneManager.LoadScene(1); // Escena principal
+        SceneManager.LoadScene(1);
     }
-   
+
+    // Llamado por el botón Exit
     public void ExitGame()
     {
         Debug.Log("Saliendo del juego...");
         Application.Quit();
-       
-        #if UNITY_EDITOR
+
+    #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        #endif
+    #endif
     }
 }

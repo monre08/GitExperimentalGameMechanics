@@ -17,7 +17,6 @@ public class TimerManager : MonoBehaviour
 
 
     [Header("Game Over")]
-    public int gameOverSceneIndex = 1; // Índice de GameOverScene en Build Settings
    
     // Evento cuando el tiempo se acaba
     public System.Action OnTimeOut;
@@ -86,7 +85,7 @@ public class TimerManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
        
         // Cargar por índice del Build Settings
-        SceneManager.LoadScene(gameOverSceneIndex);
+        SceneManager.LoadScene(2);
     }
    
     void UpdateTimerDisplay()

@@ -39,7 +39,7 @@ public class PuzzleManager : MonoBehaviour
         DoorController.OnPuzzleCompleted(puzzleNumber);
         
         // Volver a la escena principal
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     
 }

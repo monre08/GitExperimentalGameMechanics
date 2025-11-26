@@ -111,7 +111,7 @@ public class InventoryManager : MonoBehaviour
         Debug.Log("Inventario eliminado tras Game Over");
        
         yield return new WaitForSeconds(2f);
-        UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(2);
     }
 
     public void SaveInventory()

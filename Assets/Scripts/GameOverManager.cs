@@ -11,7 +11,7 @@ public class GameOverManager : MonoBehaviour
         PlayerPrefs.Save();
         
         Debug.Log("Cargando juego de nuevo...");
-        SceneManager.LoadScene(0); // Escena principal
+        SceneManager.LoadScene(1); // Escena principal
     }
    
     public void ExitGame()
